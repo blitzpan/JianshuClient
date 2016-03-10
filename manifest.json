@@ -1,0 +1,20 @@
+{
+	"app":{
+		"background":{
+			"scripts":["js/background.js"]
+		}
+	},
+	"manifest_version":2,
+	"name":"简书",
+	"version":"0.1.0",
+	"description":"谷歌应用版的简书，对网页版本作出一些优化#__#,添加到桌面方便启动.",
+	"icons": { 
+		"16": "images/ico_16.png",
+		"48": "images/ico_48.png",
+		"128": "images/ico_128.png" 
+	},
+	"permissions":[
+		"http://www.jianshu.com/*",
+		"notifications","webview"
+	]
+}
